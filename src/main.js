@@ -74,14 +74,14 @@ const allModelNames = [
 	'acousticGuitar', 'bassGuitar',
 	'piano', 'stereo', 'tr909', 'semiModular', 'stoneAltar', 'hackerDesk', 'pelicanCase',
 	'tripodLight01', 'tripodLight02', 'tripodLight03'
-];
+]
 
-const drumGroup = new THREE.Group();
-const techGroup = new THREE.Group();
-scene.add(drumGroup);
-scene.add(techGroup);
+const drumGroup = new THREE.Group()
+const techGroup = new THREE.Group()
+scene.add(drumGroup)
+scene.add(techGroup)
 
-let pelicanLight;
+let pelicanLight
 
 init()
 function init() {
